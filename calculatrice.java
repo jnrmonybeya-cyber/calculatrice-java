@@ -11,5 +11,10 @@ public class calculatrice {
     public double racineCarree(double a){
         return Math.sqrt(a);
     }
+ public double division(double a, double b){
+        if(b==0){
+            throw new IllegalArgumentException("division par zero interdite");
+        }
+        return a / b;}
 
 }

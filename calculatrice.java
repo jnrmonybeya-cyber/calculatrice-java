@@ -5,6 +5,9 @@ public class calculatrice {
     public double soustraction(double a, double b) {
         return a - b;
     }
+       public double multiplier(double a, double b) {
+        return a * b;
+    }
   public double diviser(double a, double b){
         return a / b;
     }
